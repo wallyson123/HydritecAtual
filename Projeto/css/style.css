@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.message i{
+    color: #929090;
+}
+
+.input h3{
+    color: #929090;
+}
+.form_input h3{
+    color:#929090;
+}
+.message textarea{
+    resize: none;
+    font-family: 'Poppins', Courier, monospace;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    position: relative;
+    left: 10px;
+    width: 430px;
+    height: 100px;
+    background: rgba(36, 160, 222, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    text-align: center;
+}
+
+.message textarea:hover{
+    background-color: #85c4c9;
+    transition: 0.5s;
+}
+.lembrar {
+    color: gray;
+    font-size: .8em;
+    display: flex;
+    padding: 15px 1px;
+}
+
+label{
+    padding: 0 2px;
+}
+
+.form {
+    position: relative;
+    max-width: 50rem;
+    padding: 10rem 0;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    isolation: isolate;
+    margin: auto;
+}
+
+.form .anonimo  {
+    position: absolute;
+    width: 213px;
+    height: 127px;
+    left: 152px;
+    top: 20px;
+}
+.form img{
+        max-width: 120px;
+        max-height: 120px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+}
+.form::before {
+    content: "";
+    max-width: 500px;
+    max-height: 140px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #66C2C8;
+    z-index: -1;
+}
+
+.form_title {
+    position: absolute;
+    top: 3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5rem;
+    font-weight: 'Poppins';
+}
+.icons img {
+    max-width: 20px;
+    max-height: 20px;
+    display: flex;
+}
+.denuncia img {
+    bottom: 0px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+    max-width: 45px;
+    max-height: 45px;
+}
+.form>form {
+    padding: 1.5rem;
+    background-color: inherit;
+}
+.form_input {
+    padding: 15px 0 5px;
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    margin: 20px auto;
+}
+
+.form_input input{
+    position: absolute;
+    width: 100%;
+    font: inherit;
+    padding: 0.5rem 5px;
+    margin: 1px;
+    border: none;
+    outline: none;
+    background: rgba(217, 217, 217, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    bottom: 0;
+    top: 10px;
+}
+
+input[type=text]{
+    padding: 10px 50px;
+}
+input[type=password]{
+    padding: 10px 50px;
+}
+input[type=email]{
+    padding: 10px 50px;
+}
+input[type=file]{
+    align-items: center;
+    justify-content: center;
+    padding: 5px 50px;
+    color: #929090;
+}
+input.endereco{
+    width: 211px;
+    padding: 5px 50px;
+    color: #929090;
+}
+
+.form_input i{
+    margin: 8px;
+}
+.form_input .color{
+    display: flex;
+    color: #929090;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.message .color{
+    display: flex;
+    color: #929090;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.form_input .bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .1);
+    width: 100%;
+    height: 1px;
+}
+
+.form_input .bar::before {
+    content: '';
+    display: flex;
+    position: absolute;
+    background-color: #66C2C8;
+    width: 100%;
+    height: .5rem;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s;
+}
+
+.form_input>input:focus+.bar::before {
+    transform: scaleX(1);
+}
+
+.form_button {
+    display: flex;
+    margin: 1.0rem auto 1rem;
+    background: #66C2C8;
+    color: white;
+    font: inherit;
+    border: none;
+    padding: 15px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3rem;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, .1);
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagens img{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+.form_button:hover {
+    background-color: #26777e;
+}
+
+.form_switch {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #929090;
+}
+
+.form_switch a {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #29cde3;
+}
+
+.form_switch img{
+    max-width: 25px;
+    margin: 20px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+.form_switch label{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   text-align: center;
+}
+
+@media screen and (min-width: 200px) {
+    .form:before {
+        position: absolute;
+        flex-direction: column !important;
+        height: 30rem;
+        top: 0;
+        width: 100%;
+    }
+}
