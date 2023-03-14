@@ -39,7 +39,7 @@ html {
 }
 
 .message textarea:hover{
-    background-color: #85c4c9;
+    background-color: #4dc17c;
     transition: 0.5s;
 }
 .lembrar {
@@ -85,7 +85,7 @@ label{
     top: 0;
     left: 0;
     width: 100%;
-    background: #66C2C8;
+    background: #4dc17c;
     z-index: -1;
 }
 
@@ -189,7 +189,7 @@ input.endereco{
     content: '';
     display: flex;
     position: absolute;
-    background-color: #66C2C8;
+    background-color: #4dc17c;
     width: 100%;
     height: .5rem;
     transform: scaleX(0);
@@ -204,7 +204,7 @@ input.endereco{
 .form_button {
     display: flex;
     margin: 1.0rem auto 1rem;
-    background: #66C2C8;
+    background: #5ae4b4;
     color: white;
     font: inherit;
     border: none;
@@ -226,7 +226,7 @@ input.endereco{
     height: 300px;
 }
 .form_button:hover {
-    background-color: #26777e;
+    background-color: #5ae4b4;
 }
 
 .form_switch {
@@ -240,7 +240,7 @@ input.endereco{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #29cde3;
+    color: #93cab7;
 }
 
 .form_switch img{
