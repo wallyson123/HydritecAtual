@@ -1,9 +1,12 @@
 :root{
-    --color-white: #08a7f1;
-    --color-dark1: rgb(255, 255, 255);
-    --color-dark2: #fdfdfd;
-    --color-dark5: #bce0f1;
-    --color-purple: #1f1f86;
+    /* textarea */
+    --1: #a6cdaa;
+    /* botões geral form  retangulo  */
+    --2: #6bbb3e;
+    /* botões geral form  retangulo  hover */
+    --3: #84c35f;
+    --4: #72706d;
+    --5: #b1309e;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -59,12 +62,12 @@ body a {
     font-weight: bold;
 }
 .navigation_header a:hover{
-    color: var(--color-white);
+    color: var(--2);
 }
 .btn_icon_header{
     background: transparent;
     border: none;
-    color: var(--color-white);
+    color: var(--22);
     cursor: pointer;
     display: none;
 }
@@ -84,7 +87,7 @@ body a {
 .valores h1{
     max-width: 200px;
     margin: 1.0rem auto 1rem;
-    background: #66C2C8;
+    background: var(--3);
     color: white;
     font: inherit;
     border: none;

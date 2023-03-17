@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;900&display=swap');
 
 :root{
-    --azul: #50ccd7;
-    --preto: #000405;
-    --marrom: #eaa016;
-    --cinza: #72706d;
-    --rosa: #b1309e;
+    /* textarea */
+    --1: #a6cdaa;
+    /* botões geral form  retangulo  */
+    --2: #52d364;
+    /* botões geral form  retangulo  hover */
+    --3: #84c35f;
+    --4: #72706d;
+    --5: #b1309e;
 }
 
 * {
@@ -19,17 +22,6 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-
-.message i{
-    color: #929090;
-}
-
-.input h3{
-    color: #929090;
-}
-.form_input h3{
-    color:#929090;
-}
 .message textarea{
     resize: none;
     font-family: 'Poppins', Courier, monospace;
@@ -47,7 +39,9 @@ html {
 }
 
 .message textarea:hover{
-    background-color: var(--marrom);
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--1);
     transition: 0.5s;
 }
 .lembrar {
@@ -93,7 +87,7 @@ label{
     top: 0;
     left: 0;
     width: 100%;
-    background: #4dc17c;
+    background: var(--2);
     z-index: -1;
 }
 
@@ -197,7 +191,7 @@ input.endereco{
     content: '';
     display: flex;
     position: absolute;
-    background-color: #4dc17c;
+    background-color: var(--3);
     width: 100%;
     height: .5rem;
     transform: scaleX(0);
@@ -212,7 +206,7 @@ input.endereco{
 .form_button {
     display: flex;
     margin: 1.0rem auto 1rem;
-    background: #5ae4b4;
+    background: var(--2);
     color: white;
     font: inherit;
     border: none;
@@ -234,7 +228,7 @@ input.endereco{
     height: 300px;
 }
 .form_button:hover {
-    background-color: #5ae4b4;
+    background-color: var(--3);
 }
 
 .form_switch {
@@ -248,7 +242,7 @@ input.endereco{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #93cab7;
+    color: var(--4);
 }
 
 .form_switch img{
@@ -260,7 +254,7 @@ input.endereco{
 }
 
 a:hover{
-    color: aqua;
+    color: var(--4);
     text-decoration: underline;
 }
 .form_switch label{
