@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;900&display=swap');
 
+:root{
+    --azul: #50ccd7;
+    --preto: #000405;
+    --marrom: #eaa016;
+    --cinza: #72706d;
+    --rosa: #b1309e;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +47,7 @@ html {
 }
 
 .message textarea:hover{
-    background-color: #4dc17c;
+    background-color: var(--marrom);
     transition: 0.5s;
 }
 .lembrar {
