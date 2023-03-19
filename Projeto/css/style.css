@@ -9,6 +9,7 @@
     --3: #84c35f;
     --4: #72706d;
     --5: #b1309e;
+    --6: #5f67d1;
 }
 
 * {
@@ -22,6 +23,12 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+.form_input h3{
+    color: var(--4);
+}
+.equipe h3{
+    color: var(--4);
+}
 .message textarea{
     resize: none;
     font-family: 'Poppins', Courier, monospace;
@@ -239,6 +246,7 @@ input.endereco{
 }
 
 .form_switch a {
+    padding: 4px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -255,7 +263,7 @@ input.endereco{
 
 a:hover{
     color: var(--4);
-    text-decoration: underline;
+    text-decoration: none;
 }
 .form_switch label{
     display: flex;
