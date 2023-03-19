@@ -1,17 +1,28 @@
+:root{
+  /* textarea */
+  --1: #a6cdaa;
+  /* botões geral form  retangulo  */
+  --2: #52d364;
+  /* botões geral form  retangulo  hover */
+  --3: #84c35f;
+  --4: #72706d;
+  --5: #b1309e;
+  --6: #5f67d1;
+}
 .person {
     padding: 20px;
     display: inline-block;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   
   .person img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   
   .person h2 {
@@ -26,8 +37,9 @@
   }
   
   .speech-bubble {
+    display: inline-block;
     position: relative;
-    background-color: #F7F7F7;
+    background-color: var(--1);
     border-radius: 10px;
     padding: 10px 20px;
   }
