@@ -2,11 +2,12 @@
     /* textarea */
     --1: #a6cdaa;
     /* botões geral form  retangulo  */
-    --2: #6bbb3e;
+    --2: #52d364;
     /* botões geral form  retangulo  hover */
     --3: #84c35f;
-    --4: #72706d;
+    --4: #ecebe8;
     --5: #b1309e;
+    --6: #5f67d1;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -14,14 +15,14 @@ body{
     
     opacity: 1;
     font-size: 1.6rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 body a {
     color: white;
     font-size: 15px;
     text-decoration: none;
     font-size: 1.6rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .Onda{
     position: fixed;
@@ -122,11 +123,6 @@ body a {
     max-width: 80px;
     border-radius: 50%;
 }
-.equipe h3{
-    padding: 15px;
-    margin: 5px;
-    color: #66C2C8;
-}
 
 @media screen and (max-width: 768px) {
     .navigation_header{
@@ -143,6 +139,7 @@ body a {
     .btn_icon_header{
         display: block;
     }
+
 }
 @keyframes showSidebar {
     from {margin-left: -100vw;}

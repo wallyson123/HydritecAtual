@@ -5,7 +5,7 @@
   --2: #52d364;
   /* botões geral form  retangulo  hover */
   --3: #84c35f;
-  --4: #72706d;
+  --4: #ecebe8;
   --5: #b1309e;
   --6: #5f67d1;
 }
@@ -35,8 +35,14 @@
     font-size: 18px;
     margin-bottom: 20px;
   }
-  
+  .person a img{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
   .speech-bubble {
+    width: 300px;
+    height: auto;
     display: inline-block;
     position: relative;
     background-color: var(--1);

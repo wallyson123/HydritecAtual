@@ -7,7 +7,7 @@
     --2: #52d364;
     /* botões geral form  retangulo  hover */
     --3: #84c35f;
-    --4: #72706d;
+    --4: #ecebe8;
     --5: #b1309e;
     --6: #5f67d1;
 }
@@ -77,7 +77,7 @@ html {
     transition: 0.5s;
 }
 .lembrar {
-    color: gray;
+    color: var(--4);
     font-size: .8em;
     display: flex;
     padding: 15px 1px;
@@ -90,8 +90,8 @@ label{
 .form {
     position: relative;
     max-width: 50rem;
-    padding: 10rem 0;
-    color: rgb(255, 255, 255);
+    padding: 12rem 0;
+    color: var(--4);
     background-color: transparent;
     isolation: isolate;
     margin: auto;
@@ -146,17 +146,18 @@ label{
 }
 .form>form {
     padding: 1.5rem;
-    background-color: inherit;
+    background-color: transparent;
 }
 .form_input {
     padding: 15px 0 5px;
     position: relative;
     display: flex;
     align-items: baseline;
-    margin: 20px auto;
+    margin: 5px auto;
 }
 
 .form_input input{
+    color: var(--4);
     position: absolute;
     width: 100%;
     font: inherit;
@@ -171,32 +172,35 @@ label{
 }
 
 input[type=text]{
+    color: var(--4);
     padding: 10px 50px;
 }
 input[type=password]{
+    color: var(--4);
     padding: 10px 50px;
 }
 input[type=email]{
+    color: var(--4);
     padding: 10px 50px;
 }
 input[type=file]{
     align-items: center;
     justify-content: center;
     padding: 5px 50px;
-    color: #929090;
+    color: var(--4);
 }
 input.endereco{
     width: 211px;
     padding: 5px 50px;
-    color: #929090;
+    color: var(--4);
 }
-
 .form_input i{
+    color: var(--4);
     margin: 8px;
 }
 .form_input .color{
     display: flex;
-    color: #929090;
+    color: var(--4);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -204,7 +208,7 @@ input.endereco{
 }
 .message .color{
     display: flex;
-    color: #929090;
+    color: var(--4);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -266,12 +270,12 @@ input.endereco{
 .form_switch {
     display: inline-block;
     text-align: center;
-    font-size: 1.5rem;
-    color: #929090;
+    font-size: 1.3rem;
+    color: var(--4);
 }
 
 .form_switch a {
-    padding: 4px;
+    padding: 2px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
