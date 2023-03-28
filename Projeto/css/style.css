@@ -7,8 +7,8 @@
     --2: #52d364;
     /* botões geral form  retangulo  hover */
     --3: #84c35f;
-    --4: #ecebe8;
-    --5: #b1309e;
+    --4: #4e4e4c;
+    --5: #f6f1f5;
     --6: #5f67d1;
 }
 
@@ -90,12 +90,13 @@ label{
 .form {
     position: relative;
     max-width: 50rem;
-    padding: 12rem 0;
-    color: var(--4);
+    padding: 11rem 0 10px;
+    color: var(--5);
     background-color: transparent;
     isolation: isolate;
     margin: auto;
 }
+
 
 .form .anonimo  {
     position: absolute;
@@ -126,10 +127,12 @@ label{
 .form_title {
     position: absolute;
     top: 3.5rem;
-    left: 50%;
+    /* left: 50%; */
+    justify-content: center;
+    align-items: center;
     transform: translateX(-50%);
-    font-size: 2.5rem;
-    font-weight: 'Poppins';
+    font-size: 4.0rem;
+    font-weight: bold;
 }
 .icons img {
     max-width: 20px;
