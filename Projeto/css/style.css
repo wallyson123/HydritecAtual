@@ -131,7 +131,7 @@ label{
     justify-content: center;
     align-items: center;
     transform: translateX(-50%);
-    font-size: 4.0rem;
+    font-size: 3.3rem;
     font-weight: bold;
 }
 .icons img {
@@ -141,9 +141,9 @@ label{
 }
 .denuncia img {
     bottom: 0px;
-  position: relative;
-  text-align: center;
-  display: inline-block;
+    position: relative;
+    text-align: center;
+    display: inline-block;
     max-width: 45px;
     max-height: 45px;
 }
@@ -152,11 +152,10 @@ label{
     background-color: transparent;
 }
 .form_input {
-    padding: 15px 0 5px;
+    padding: 20px 0 6px;
     position: relative;
     display: flex;
-    align-items: baseline;
-    margin: 5px auto;
+    margin: 5px;
 }
 
 .form_input input{
@@ -266,6 +265,7 @@ input.endereco{
     width: 300px;
     height: 300px;
 }
+
 .form_button:hover {
     background-color: var(--3);
 }
