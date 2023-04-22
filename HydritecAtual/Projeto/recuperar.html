@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/equipe.css">
+    <link rel="shortcut icon" href="img/slot.svg" type="image/x-icon">
+    <title>Denúncia certa</title>
+
+
+</head>
+
+<body id="body">
+    <img class="Onda" src="img/onda.png">
+    <div class="header" id="header">
+        <button onclick="toggleSidebar()" class="btn_icon_header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+        <div class="logo_header">
+            <a href="index.html"><img src="img/logo.jfif" alt="Logo fabrica" class="img_logo_header"></a>
+        </div>
+        <div class="navigation_header" id="navigation_header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            <a href="index.html">Inicio</a>
+            <a href="sobre.html">Sobre nós</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="denuncia.html">Relátorio Denúncias</a>
+            <a href="arquivodenuncia.html">Denúncias</a>
+            <a href="paginas.html">Todas as paginas</a>
+        </div>
+    </div>
+    <div tabindex="0" class="content" onfocus="closeSidebar()" id="content">
+        <div class="form">
+            <span class="form_title">Redifinir Senha</span>
+            <form action="">
+                <div class="form_input">
+                    <i class="icons"><img src="img/email.png" alt=""></i>
+                    <input type="text" placeholder="Email cadastrado">
+                    <span class="bar"></span>
+                </div>
+                <div class="form_input">
+                    <span class="color">Certifiquem-se que o email digitado já foi cadastrado, caso contrario não sera enviado dados para nova senha! <br><br>Equipe Hydritec</span>
+                    <span class="bar"></span>
+                </div>
+                <a href="senha.html"><button type="submit" class="form_button">Enviar</button></a>
+                <span class="form_switch">
+                    <label>Lembrou a senha ? <a href="index.html"> Realizar Login Aqui</a></label>
+                    <label>Dificuldades ? <a href="mailto:equipehydritec@gmail.com" target="_blank">Clique aqui</a></label>
+                </span>
+            </form>
+        </div>
+</body>
+<script src="js/js.js"></script>
+</html>
