@@ -11,7 +11,7 @@
   }
   
   .person {
-      padding: 10px;
+      padding:5px;
       display: inline-block;
       flex-direction: column;
       align-items: center;
@@ -31,7 +31,6 @@
         border: none;
         outline: none;
         position: relative;
-        left: 10px;
         width: 200px;
         height: 80px;
         background: rgba(36, 160, 222, 0.1);

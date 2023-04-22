@@ -292,7 +292,22 @@ input.endereco{
   text-align: center;
   display: inline-block;
 }
-
+footer {
+    background-color: transparent;
+    border-top: none;
+    text-align: center;
+    padding: 10px;
+    color: rgb(14, 10, 10);
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
 a:hover{
     color: var(--4);
     text-decoration: none;
