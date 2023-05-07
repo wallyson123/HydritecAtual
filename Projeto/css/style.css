@@ -53,17 +53,18 @@ html {
 }
 
 .message2 textarea{
+    padding: 10px;
     overflow: hidden;
     resize: none;
     font-family: 'Poppins', Courier, monospace;
-    font-size: 15px;
+    font-size: 12px;
     border: none;
     outline: none;
     position: relative;
-    left: 10px;
     width: 360px;
-    height: 320px;
-    background: rgba(36, 160, 222, 0.1);
+    height: 200px;
+    background-color: var(--1);
+    /* background: rgba(36, 160, 222, 0.1); */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     justify-content: center;
     text-align: center;
@@ -72,7 +73,7 @@ html {
 .message2 textarea:hover{
     overflow: hidden;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--1);
     transition: 0.5s;
 }
@@ -95,6 +96,7 @@ label{
     background-color: transparent;
     isolation: isolate;
     margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -132,7 +134,7 @@ label{
     align-items: center;
     transform: translateX(-50%);
     font-size: 3.3rem;
-    font-weight: bold;
+    font-weight: bold; 
 }
 .icons img {
     max-width: 20px;
@@ -292,7 +294,22 @@ input.endereco{
   text-align: center;
   display: inline-block;
 }
-
+footer {
+    background-color: transparent;
+    border-top: none;
+    text-align: center;
+    padding: 10px;
+    color: rgb(14, 10, 10);
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
 a:hover{
     color: var(--4);
     text-decoration: none;
