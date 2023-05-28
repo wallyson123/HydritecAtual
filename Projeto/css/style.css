@@ -53,6 +53,7 @@ html {
 }
 
 .message2 textarea{
+    border-radius: 20px;        
     padding: 10px;
     overflow: hidden;
     resize: none;
@@ -71,9 +72,9 @@ html {
 }
 
 .message2 textarea:hover{
+    color: var(--4);
     overflow: hidden;
-    padding: 5px;
-    border-radius: 20px;
+    padding: 5px;   
     background-color: var(--1);
     transition: 0.5s;
 }
